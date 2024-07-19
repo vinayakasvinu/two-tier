@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import path from 'path';
 
 const app = express();
-const frontendPort = 8080;
+const frontendPort = 80;
 const backendUrl = 'http://localhost:3000/api/data';
 
 app.get('/', async (req, res) => {
